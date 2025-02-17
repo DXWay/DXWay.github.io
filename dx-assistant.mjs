@@ -75406,7 +75406,7 @@ const _sfc_main = {
       rainbowSDK$1.webRTC.release(this.callId);
     },
     establishConnectionWithWS() {
-      this.socket = lookup(`https://app.dxcc.fr/web/medium/webhook`, {
+      this.socket = lookup(`https://app.dxway.fr/web/medium/webhook`, {
         // /* LOCAL */ this.socket = io(`http://localhost/web/medium/webhook`, {
         path: "/web/medium/webhook",
         extraHeaders: {
